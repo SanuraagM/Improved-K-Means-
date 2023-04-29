@@ -69,6 +69,7 @@ Here we are just comparing the new and previous distance of the point from its c
 **Other Resources**
 
 The dataset-https://www.kaggle.com/datasets/imanjowkar/clustering
+
 For More understanding refer - https://1drv.ms/w/s!AtESBPVQLrCYi7hOa-2f0bnVpbt5Pw?e=Qpc0q8
 
 
