@@ -1,9 +1,8 @@
-K-Means Clustering Algorithm
+**K-Means Clustering Algorithm**
 
 This is a simple implementation of the K-Means clustering algorithm in Python. The algorithm takes a dataset and a number of clusters as input and returns the cluster centers and the corresponding labels for each data point in the dataset.
 
-How to implement K Means
-
+**How to implement K Means**
 1.	Import the following packages:
 import numpy as np
       import seaborn as sns
@@ -54,7 +53,7 @@ cluster_center[0][0]=np.mean(Cluster1x)
 
 8.	Run a while loop until the old and the new cluster centers converge
 
-Changes for implementation of improved K Means
+**Changes for implementation of improved K Means**
 
 For improved K Means the only difference is instead for defining the clusters again and again we will only check for the those points whose distance from the new cluster center is more than previous cluster center.
 
@@ -63,11 +62,11 @@ for i in range(n):
     if new_d[i][J]>d[i][J]:                          
 Here we are just comparing the new and previous distance of the point from its cluster center.
 
-Why use Improved K Means
+**Why use Improved K Means**
 
  Because the computational complexity of the standard k-means algorithm is objectionably high owing to the need to reassign the data points several times during every iteration, which makes the efficiency of standard k-means clustering low. This new algorithm presents a simple and efficient way for assigning data points to clusters. This algorithm ensures the entire process of clustering in O(nk) time without sacrificing the accuracy of clusters. Experimental results show the improved algorithm can improve the execution time of k-means algorithm. So, the proposed k-means method is feasible.
 
-Other Resources
+**Other Resources**
 The dataset-https://www.kaggle.com/datasets/imanjowkar/clustering
 
 For More understanding refer - https://1drv.ms/w/s!AtESBPVQLrCYi7hOa-2f0bnVpbt5Pw?e=Qpc0q8
